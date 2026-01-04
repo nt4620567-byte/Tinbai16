@@ -1,1 +1,123 @@
 # Tinbai16
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập CSS</title>
+</head>
+<body>
+
+    <h2>Luyện tập 1:</h2>
+    <p>
+        Có, phần tử HTML có thể được ẩn đi trên trang web bằng cách sử dụng lệnh CSS
+        <b>display: none;</b>.
+    </p>
+
+    <hr>
+
+    <h2>Luyện tập 2:</h2>
+
+    <p><b>Ý nghĩa:</b></p>
+
+    <p>
+        - <b>test.test_more</b>: Đây là một bộ chọn đồng thời (class selector) áp dụng cho
+        các phần tử có cả hai lớp tên là "test" và "test_more". Điều này có nghĩa là
+        chỉ các phần tử có cả hai lớp tên này sẽ được áp dụng định dạng.
+    </p>
+
+    <p>
+        - <b>background-color: red;</b>: Đây là thuộc tính CSS được sử dụng để đặt màu nền
+        (background-color) của các phần tử được chọn. Trong trường hợp này, màu nền của
+        các phần tử có lớp tên "test" và "test_more" sẽ được đặt là đỏ (red).
+    </p>
+
+    <p><b>Ví dụ:</b></p>
+
+    <!-- CHỖ DÁN ẢNH VÍ DỤ -->
+    <img 
+        src="dan-anh-vao-day.jpg"
+        alt="Ví dụ test.test_more"
+        style="
+            width: 350px;
+            display: block;
+            margin-top: 10px;
+            border: 1px solid black;
+        "
+    >
+
+    <hr>
+
+    <h2>Vận dụng 1:</h2>
+
+    <p><b>Có.</b></p>
+
+    <p><b>Cách giải quyết:</b></p>
+
+    <p>
+        - Gắn một lớp tên riêng cho P1, ví dụ:
+        <b>&lt;p class="important"&gt;Đoạn P1&lt;/p&gt;</b>.
+        Đây là lớp tên dùng để định dạng đoạn P1.
+    </p>
+
+    <p>
+        - Gắn cùng một lớp tên cho P2 và P3, ví dụ:
+        <b>&lt;p class="normal"&gt;Đoạn P2&lt;/p&gt;</b> và
+        <b>&lt;p class="normal"&gt;Đoạn P3&lt;/p&gt;</b>.
+        Đây là lớp tên dùng để định dạng đoạn P2 và P3.
+    </p>
+
+    <p>
+        - Sử dụng CSS để áp dụng các định dạng khác biệt cho các lớp tên tương ứng.
+    </p>
+
+    <hr>
+
+    <h2>Vận dụng 2:</h2>
+
+    <p>
+        Có, bạn có thể thiết lập định dạng khác nhau cho các khung và viền trên, dưới,
+        trái, phải bằng cách sử dụng thuộc tính CSS <b>border</b> và các thuộc tính liên quan.
+    </p>
+
+    <p><b>Cách thiết lập định dạng CSS cho các khung và viền như vậy như sau:</b></p>
+
+    <p>
+        - Sử dụng thuộc tính <b>border</b> để định dạng viền của khung.
+    </p>
+
+    <p><b>Ví dụ:</b></p>
+
+    <!-- CHỖ DÁN ẢNH VÍ DỤ VIỀN -->
+    <img 
+        src="dan-anh-vao-day.jpg"
+        alt="Ví dụ border"
+        style="
+            width: 350px;
+            display: block;
+            margin-top: 10px;
+            border: 1px solid black;
+        "
+    >
+    <p> 
+    Trong ví dụ này, tất cả các phần tử <b><div></b> sẽ có viền <b>2px</b>, màu đen và loại viền là dạng nét liền <b>(solid)</b>.</p>
+  <p>
+- Để thiết lập viền khác nhau cho các cạnh, bạn có thể sử dụng các thuộc tính <b>border-top</b>, <b>border-bottom</b>, <b>border-left</b> và <b>border-right</b> để chỉ định viền cho từng cạnh riêng biệt.
+  </p>
+   <p><b>Ví dụ:</b></p>
+
+    <!-- CHỖ DÁN ẢNH VÍ DỤ VIỀN -->
+    <img 
+        src="dan-anh-vao-day.jpg"
+        alt="Ví dụ border"
+        style="
+            width: 350px;
+            display: block;
+            margin-top: 10px;
+            border: 1px solid black;
+        "
+    >
+    <p> 
+    Trong ví dụ này, các phần tử <b><div></b> sẽ có viền đỏ ở phía trên, viền nét đứt màu xanh ở phía dưới, viền nét chấm màu xanh lá cây ở phía trái và viền đôi màu tím ở phía phải.
+    </p>
+</body>
+</html>
