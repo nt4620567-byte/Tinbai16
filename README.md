@@ -89,7 +89,7 @@
 
     <!-- CHỖ DÁN ẢNH VÍ DỤ VIỀN -->
     <img 
-        src="dan-anh-vao-day.jpg"
+        src="https://github.com/user-attachments/assets/e14f0d89-2673-4e65-b333-b9f0a28ed9da"
         alt="Ví dụ border"
         style="
             width: 350px;
